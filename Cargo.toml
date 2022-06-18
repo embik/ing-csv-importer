@@ -1,0 +1,12 @@
+[package]
+name = "diba-csv-importer"
+version = "0.1.0"
+edition = "2021"
+authors = ["Marvin Beckers <mail@embik.me>"]
+
+[dependencies]
+rusqlite = "0.27.0"
+csv = "1.1"
+serde = { version = "1", features = ["derive"] }
+encoding_rs = "0.8"
+encoding_rs_io = "0.1"
