@@ -80,18 +80,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "diba-csv-importer"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "csv",
- "encoding_rs",
- "encoding_rs_io",
- "rusqlite",
- "serde",
-]
-
-[[package]]
 name = "encoding_rs"
 version = "0.8.31"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -148,6 +136,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7249a3129cbc1ffccd74857f81464a323a152173cdb134e0fd81bc803b29facf"
 dependencies = [
  "hashbrown",
+]
+
+[[package]]
+name = "ing-csv-importer"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "csv",
+ "encoding_rs",
+ "encoding_rs_io",
+ "rusqlite",
+ "serde",
 ]
 
 [[package]]

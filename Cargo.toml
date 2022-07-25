@@ -1,5 +1,5 @@
 [package]
-name = "diba-csv-importer"
+name = "ing-csv-importer"
 version = "0.1.0"
 edition = "2021"
 authors = ["Marvin Beckers <mail@embik.me>"]
