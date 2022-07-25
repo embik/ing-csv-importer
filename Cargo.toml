@@ -6,6 +6,7 @@ authors = ["Marvin Beckers <mail@embik.me>"]
 
 [dependencies]
 rusqlite = "0.27.0"
+chrono = { version = "0.4", features = ["serde"] }
 csv = "1.1"
 serde = { version = "1", features = ["derive"] }
 encoding_rs = "0.8"
